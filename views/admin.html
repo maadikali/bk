@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="views/css/table.css" />
+    <style>
+        table {
+            width: 50%;
+        }
+    </style>
+</head>
+<body onload="<%b=false%>">
+    <div class="container">
+        <div style="display: flex;">
+            <h2 style="text-decoration: none;">List of users</h2>
+        </div>
+        <h6 style="position: absolute; top: 22px; left: 1150px"><a href="index.html">Log out</a></h6>
+        <table class="table table-bordered table-striped table-responsive-stack col-3" id="tableOne">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Username</th>
+                    <th>E-mail</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%for(let i = 0; i < ans.length; i++){%>
+                <tr id="<%=ans[i]['email']%>" ;>
+                    <td><%=ans[i]['username']%><br /><input name="newname" id="newname" type="text" placeholder="new name"/></td>
+                    <td><%=ans[i]['email']%><br /><input name="newemail" id="newemail" type="email" placeholder="new email"/></td>
+                    <td><%=ans[i]['password']%></td>
+                    <td>
+                        <form action="/delete" method="post" id="forma">
+                            <input type="hidden" id="ema" name="ema" value="<%=ans[i]['email']%>">
+                            <button type="submit">Delete</button>
+                        </form> <br />
+                        <form action="/update" method="post">
+                            <input type="hidden" id="ema" name="ema" value="<%=ans[i]['email']%>">
+                            <button type="submit">Edit</button>
+                        </form>
+                    </td>
+                </tr>
+                <%}%>
+            </tbody>
+        </table>
+        <div style="top: 40%; display: flex">
+            <form action="/admin1" method="get"><button style="margin-left: 50px;" type="submit">Sort by Name</button></form>
+            <form action="/admin2" method="get"><button style="margin-left: 150px;" type="submit">Sort by Email</button></form>
+        </div>
+        </div>
+</body>
+</html>

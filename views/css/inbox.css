@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #212529;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.inside {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+}

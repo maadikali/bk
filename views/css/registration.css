@@ -1,0 +1,68 @@
+.login-form {
+    display: none;
+}
+
+.inputpole {
+    padding: 3% 3%;
+    display: flex;
+}
+
+    .inputpole input {
+        font-size: 16px;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        width: 80%;
+        padding: 2% 2%;
+        border: 1px;
+        margin: auto;
+        border: 2px solid;
+        outline: none;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+    }
+
+    .inputpole .button {
+        width: 80%;
+        height: 40px;
+        background-color: #4bb5c4;
+        border: none;
+        color: white;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        margin: auto;
+    }
+
+        .inputpole .button :hover {
+            background-color: #4bb5c4;
+        }
+
+.fa {
+    font-size: 160%;
+    text-decoration: none;
+    margin-left: 9.5%;
+    cursor: pointer;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.accountblank {
+    width: 30%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    left: 50%;
+    top: 45%;
+    border: 1px solid;
+    border-color: #3e5c6d;
+    z-index: 1;
+}
+
+form i {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 2%;
+    cursor: pointer;
+}
