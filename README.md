@@ -1,6 +1,8 @@
 Astana IT University
 
-WEB Technology (Backend) Report on Bookstore WEB Project 
+WEB Technology (Backend)
+
+Report on Bookstore WEB Project 
 
 Student Name: Madiyar Kaliev
 
@@ -27,6 +29,7 @@ The following pages will detail the user manual and explain each function of the
 Explanation and structure of the project	
 
 When you open  website, you will immediately have the opportunity to register by clicking "REGISTER NOW" to activate user functions. 
+
 ![image_2024-09-12_00-23-03](https://github.com/user-attachments/assets/894f9f9c-68e4-4e32-b3a0-9f3d00c2a02f)
 
  
