@@ -1,4 +1,4 @@
-![image_2024-09-12_00-23-51](https://github.com/user-attachments/assets/91e2bd3e-9ae5-425a-aea1-23168a18de1b)Astana IT University
+Astana IT University
 
 WEB Technology (Backend) Report on Bookstore WEB Project 
 
@@ -55,7 +55,9 @@ For example, Java.
 
 You can read the book here or add it to your Favorite Collection 
 
-![image_2024-09-12_00-23-51](https://github.com/user-attachments/assets/c06397dc-de7b-47e1-a8a6-200a9df5348d)
+![image_2024-09-12_00-23-51](https://github.com/user-attachments/assets/f0ec79ed-fc3b-4231-b599-aefbcbea0f6b)
+
+
 
  
 After adding the site notify that the book was successfully added to the collection 
