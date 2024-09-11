@@ -25,8 +25,9 @@ The diagram:
 ![image_2024-09-12_00-21-35](https://github.com/user-attachments/assets/fe47bcd9-77fb-4ce7-bd9c-61443a518104)
 
  
-The following pages will detail the user manual and explain each function of the site.  
-Explanation and structure of the project	
+The following pages will detail the user manual and explain each function of the site.
+
+Explanation and structure of the project:	
 
 When you open  website, you will immediately have the opportunity to register by clicking "REGISTER NOW" to activate user functions. 
 
