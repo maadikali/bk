@@ -1,7 +1,5 @@
 Astana IT University
 
-WEB Technology (Backend)
-
 Report on Bookstore WEB Project 
 
 Student Name: Madiyar Kaliev
